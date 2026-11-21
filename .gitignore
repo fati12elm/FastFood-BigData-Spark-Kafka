@@ -1,0 +1,16 @@
+# Identifiants et environnement
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Donnees volumineuses
+data/*.jsonl
+
+# Outil MinIO Windows
+tools/mc.exe
+
+# Fichiers temporaires
+*.log
+.DS_Store

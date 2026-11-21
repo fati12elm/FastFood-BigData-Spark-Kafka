@@ -1,0 +1,39 @@
+{
+  "total_events": 50000,
+  "delivered_events": 28947,
+  "ca_par_ville": {
+    "Casablanca": 1238449.53,
+    "Marrakech": 1225337.01,
+    "Rabat": 1242991.93,
+    "Tanger": 1217918.92
+  },
+  "panier_moyen": {
+    "Casablanca": 169.91,
+    "Marrakech": 169.34,
+    "Rabat": 171.0,
+    "Tanger": 170.27
+  },
+  "top5_restaurants": [
+    [
+      "R-049",
+      177
+    ],
+    [
+      "R-112",
+      171
+    ],
+    [
+      "R-120",
+      171
+    ],
+    [
+      "R-197",
+      170
+    ],
+    [
+      "R-038",
+      168
+    ]
+  ],
+  "temps_total_secondes": 12.2266
+}

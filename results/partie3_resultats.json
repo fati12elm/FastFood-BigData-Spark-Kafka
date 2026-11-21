@@ -1,0 +1,152 @@
+{
+  "total_events": 50000,
+  "delivered_events": 28947,
+  "restaurants": 200,
+  "ca_dataframe": {
+    "Casablanca": 1238449.53,
+    "Marrakech": 1225337.01,
+    "Rabat": 1242991.93,
+    "Tanger": 1217918.92
+  },
+  "ca_sql": {
+    "Casablanca": 1238449.53,
+    "Marrakech": 1225337.01,
+    "Rabat": 1242991.93,
+    "Tanger": 1217918.92
+  },
+  "ca_by_category": [
+    {
+      "city": "Casablanca",
+      "category": "burger",
+      "ca_mad": 195039.25
+    },
+    {
+      "city": "Casablanca",
+      "category": "marocain",
+      "ca_mad": 235994.81
+    },
+    {
+      "city": "Casablanca",
+      "category": "pizza",
+      "ca_mad": 77362.18
+    },
+    {
+      "city": "Casablanca",
+      "category": "poulet",
+      "ca_mad": 350489.2
+    },
+    {
+      "city": "Casablanca",
+      "category": "sushi",
+      "ca_mad": 154333.49
+    },
+    {
+      "city": "Casablanca",
+      "category": "tacos",
+      "ca_mad": 225230.6
+    },
+    {
+      "city": "Marrakech",
+      "category": "burger",
+      "ca_mad": 265287.0
+    },
+    {
+      "city": "Marrakech",
+      "category": "marocain",
+      "ca_mad": 202228.56
+    },
+    {
+      "city": "Marrakech",
+      "category": "pizza",
+      "ca_mad": 221176.57
+    },
+    {
+      "city": "Marrakech",
+      "category": "poulet",
+      "ca_mad": 149656.27
+    },
+    {
+      "city": "Marrakech",
+      "category": "sushi",
+      "ca_mad": 120394.23
+    },
+    {
+      "city": "Marrakech",
+      "category": "tacos",
+      "ca_mad": 266594.38
+    },
+    {
+      "city": "Rabat",
+      "category": "burger",
+      "ca_mad": 235065.45
+    },
+    {
+      "city": "Rabat",
+      "category": "marocain",
+      "ca_mad": 225601.36
+    },
+    {
+      "city": "Rabat",
+      "category": "pizza",
+      "ca_mad": 147180.55
+    },
+    {
+      "city": "Rabat",
+      "category": "poulet",
+      "ca_mad": 215195.8
+    },
+    {
+      "city": "Rabat",
+      "category": "sushi",
+      "ca_mad": 131234.16
+    },
+    {
+      "city": "Rabat",
+      "category": "tacos",
+      "ca_mad": 288714.61
+    },
+    {
+      "city": "Tanger",
+      "category": "burger",
+      "ca_mad": 220683.47
+    },
+    {
+      "city": "Tanger",
+      "category": "marocain",
+      "ca_mad": 219093.48
+    },
+    {
+      "city": "Tanger",
+      "category": "pizza",
+      "ca_mad": 265198.54
+    },
+    {
+      "city": "Tanger",
+      "category": "poulet",
+      "ca_mad": 124767.46
+    },
+    {
+      "city": "Tanger",
+      "category": "sushi",
+      "ca_mad": 193102.68
+    },
+    {
+      "city": "Tanger",
+      "category": "tacos",
+      "ca_mad": 195073.29
+    }
+  ],
+  "missing_restaurant_refs": 0,
+  "distance_counts": {
+    "long": 29951,
+    "moyen": 12879,
+    "court": 7170
+  },
+  "temps_dataframe_secondes": 2.3737,
+  "temps_sql_secondes": 0.8575,
+  "temps_udf_secondes": 0.8325,
+  "temps_native_secondes": 0.5827,
+  "cleaned_events": 49006,
+  "silver_events": 49006,
+  "silver_path": "s3a://lake/silver/orders_history/"
+}
